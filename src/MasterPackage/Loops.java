@@ -3,6 +3,9 @@ package MasterPackage;
 public class Loops {
 
 	public static void main(String[] args) {
+
+		/******************** For Loop ********************/
+		
 		int i = 0;
 		int k = 200;
 		int j;
@@ -25,6 +28,22 @@ public class Loops {
 		
 				System.out.println("Value of variable 'k' is --->" + k);
 				
+		/******************** While Loop ********************/
+				
+		int y = 1;
+		while (y<=10){
+			System.out.println("Value of variable 'y' is ---> " + y);
+			y++;
+		}
+		
+		/******************** do While Loop ********************/
+		int z = 100;
+		do{
+			System.out.println("Value of variable z is --->" + z);
+			z-=10;
+		}
+		while(z>=10);
+		
 	}
 
 }
