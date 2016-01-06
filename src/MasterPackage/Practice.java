@@ -4,7 +4,7 @@ public class Practice {
 
 	public static void main(String[] args){
 	String st1 = "This is very nice";
-	String st2 = " and beautiful";
+	String st2 = "                  and beautiful";
 	
 	// comparing two strings. If it matches, returns true else false.
 	System.out.println("st1 equals to st2? ---> " + st1.equals(st2));
@@ -56,10 +56,9 @@ public class Practice {
 	System.out.println("String part 1 is ---> "+ splt[0]);
 	System.out.println("String part 2 is ---> "+ splt[1]);
 	
-	
-	
-	
-	
+	// Trim string
+	System.out.println("Trimmed string is ---> " + st2.trim());
+		
 	}
 
 }
